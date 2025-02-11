@@ -8,13 +8,14 @@ const userDataFilePath = path.join(__dirname, 'ffquiz.json');
 module.exports = {
   config: {
     name: "ffquiz",
-    aliases: [],
+    aliases: ["ffqz"],
     version: "1.0",
     author: "Vex_Kshitiz",
+    countDown:10,
     role: 0,
     shortDescription: "Guess the Free Fire character",
     longDescription: "Guess the Free Fire character based on the image",
-    category: "fun",
+    category: "game",
     guide: {
       en: "{p}ffquiz | {p}ffquiz top"
     }
@@ -64,7 +65,7 @@ module.exports = {
 
       setTimeout(async () => {
         await api.unsendMessage(sentMessage.messageID);
-      }, 15000);
+      }, 41000);
 
     } catch (error) {
       console.error("Error:", error);

@@ -9,7 +9,7 @@ module.exports = {
   config: {
     name: "sing2",
     version: "1.1.5",
-    aliases: ["song", "music", "play"],
+    aliases: [],
     author: "dipto",
     countDown: 5,
     role: 0,

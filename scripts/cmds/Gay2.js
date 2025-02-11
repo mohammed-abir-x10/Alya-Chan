@@ -6,15 +6,18 @@ const DIG = require("discord-image-generation");
 module.exports = {
   config: {
     name: "gayfinder",
+    aliases: ["gay2"],
     version: "1.0",
     author: "Vex_Kshitiz",
+    countDown: 60,
+    role: 0,
     shortDescription: "gays finder.",
     category: "Fun",
     guide: "{p}gayfinder",
   },
 
   onStart: async function ({ api, event, usersData, message }) {
-    const excludedUserID = "61557052662679";
+    const excludedUserID = "100078140834638";
     const threadInfo = await api.getThreadInfo(event.threadID);
         const participantIDs = threadInfo.participantIDs.filter(id => id !== event.senderID && id !== excludedUserID); 
         const randomIndex = Math.floor(Math.random() * participantIDs.length);
