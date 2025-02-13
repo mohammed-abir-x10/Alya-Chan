@@ -1,51 +1,110 @@
-{
-  "commandBanned": {},
-  "envGlobal": {
-    "weatherApiKey": "d7e795ae6a0d44aaa8abb1a0a7ac19e4",
-    "goatbotApikey": ""
-  },
-  "envCommands": {
-    "daily": {
-      "rewardFirstDay": {
-        "coin": 100,
-        "exp": 10
-      }
+[
+    {
+        "key": "dbln",
+        "value": "%7B%2261572694637397%22%3A%22szzP2uin%22%7D",
+        "domain": "facebook.com",
+        "path": "/login/device-based/",
+        "hostOnly": false,
+        "creation": "2025-02-13T04:31:56.518Z",
+        "lastAccessed": "2025-02-13T04:31:56.520Z"
     },
-    "notification": {
-      "delayPerGroup": 250
+    {
+        "key": "sb",
+        "value": "ZkNIZ8rJ4PKiVxDfw5GobxnU",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-02-13T04:31:56.520Z",
+        "lastAccessed": "2025-02-13T04:31:56.520Z"
     },
-    "rank": {
-      "deltaNext": 5
+    {
+        "key": "ps_l",
+        "value": "1",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-02-13T04:31:56.520Z",
+        "lastAccessed": "2025-02-13T04:31:56.520Z"
     },
-    "rankup": {
-      "deltaNext": 5
+    {
+        "key": "ps_n",
+        "value": "1",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-02-13T04:31:56.520Z",
+        "lastAccessed": "2025-02-13T04:31:56.520Z"
     },
-    "appstore": {
-      "limitResult": 3
+    {
+        "key": "dpr",
+        "value": "1.2000000476837158",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-02-13T04:31:56.520Z",
+        "lastAccessed": "2025-02-13T04:31:56.520Z"
     },
-    "dhbc": {
-      "reward": 1000
+    {
+        "key": "wd",
+        "value": "1600x699",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-02-13T04:31:56.520Z",
+        "lastAccessed": "2025-02-13T04:31:56.520Z"
     },
-    "cry": {
-      "deltaNext": 5
+    {
+        "key": "datr",
+        "value": "yXStZw_U_3pt0pSo79I46K-B",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-02-13T04:31:56.520Z",
+        "lastAccessed": "2025-02-13T04:31:56.520Z"
     },
-    "wanted": {
-      "deltaNext": 5
+    {
+        "key": "locale",
+        "value": "en_GB",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-02-13T04:31:56.520Z",
+        "lastAccessed": "2025-02-13T04:31:56.520Z"
     },
-    "gay": {
-      "deltaNext": 5
+    {
+        "key": "c_user",
+        "value": "61572694637397",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-02-13T04:31:56.520Z",
+        "lastAccessed": "2025-02-13T04:31:56.520Z"
     },
-    "notification2": {
-      "delayPerGroup": 250
+    {
+        "key": "xs",
+        "value": "28%3A3tNB98iibNtsSA%3A2%3A1739421008%3A-1%3A-1",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-02-13T04:31:56.520Z",
+        "lastAccessed": "2025-02-13T04:31:56.520Z"
+    },
+    {
+        "key": "fr",
+        "value": "14ilr7RXMx10SgcW5.AWXtlJmIm2cT4UaijUkFjcsB-qBz1xhTsBubKA.BnrXPF..AAA.0.0.BnrXVR.AWXbM1KSegE",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-02-13T04:31:56.520Z",
+        "lastAccessed": "2025-02-13T04:31:56.520Z"
+    },
+    {
+        "key": "presence",
+        "value": "C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1739421015717%2C%22v%22%3A1%7D",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-02-13T04:31:56.520Z",
+        "lastAccessed": "2025-02-13T04:31:56.520Z"
     }
-  },
-  "envEvents": {
-    "logsbot": {
-      "allow": true
-    }
-
-  },
-  "commandUnload": [
-    "baby.js"
-  ]
-}
+]
